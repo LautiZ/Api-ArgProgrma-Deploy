@@ -7,6 +7,7 @@ com\cursojava\project\repositories\DomicilioRepository.class
 com\cursojava\project\controllers\UsuarioController.class
 com\cursojava\project\models\Projects.class
 com\cursojava\project\repositories\ProjectsRepository.class
+com\cursojava\project\WebConfig.class
 com\cursojava\project\models\Education.class
 com\cursojava\project\models\Aboutme.class
 com\cursojava\project\repositories\EducationRepository.class
