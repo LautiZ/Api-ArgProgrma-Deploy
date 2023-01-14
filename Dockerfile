@@ -1,6 +1,6 @@
 FROM openjdk:17-oracle
 
-MAINTAINER LauziZ
+MAINTAINER LautiZ
 
 COPY target/project-0.0.1-SNAPSHOT.jar project-0.0.1-SNAPSHOT.jar
 
