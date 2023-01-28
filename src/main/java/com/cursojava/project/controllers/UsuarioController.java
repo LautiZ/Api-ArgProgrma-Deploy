@@ -40,7 +40,7 @@ public class UsuarioController {
         return "Esto es una ruta de prueba";
     }
 
-    // Ruta para ver todos los usuarios
+    // Ruta para ver todos los usuarios.
     @GetMapping(value = "usuarios")
     public List<Usuario> getUsuarios(@RequestHeader(value = "Authorization") String token) {
 
