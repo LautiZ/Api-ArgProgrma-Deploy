@@ -42,7 +42,12 @@ public class UsuarioController {
 
     // Ruta para ver todos los usuarios.
     @GetMapping(value = "usuarios")
-    public List<Usuario> getUsuarios() {
+    public List<Usuario> getUsuarios(@RequestHeader(value = "Authorization") String token) {
+
+        if (!validarToken(token)) {
+            return null;
+        }
+
         return usuarioRepository.findAll();
     }
 
